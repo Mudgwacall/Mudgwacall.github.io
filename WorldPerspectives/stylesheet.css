@@ -1,0 +1,574 @@
+
+/* Page Setup CSS */
+
+
+body{background-color:#EBEBEB;
+}
+
+a{
+	text-decoration:none;
+}
+#header {
+	position: relative;
+	top: -20px;
+	background-color: #38374A;
+	padding:60px;
+}
+#logo {
+	position: absolute;
+	left:2.5%;
+	top:47%;
+
+
+}
+#navbar {
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:250px;
+}
+#profile_pic{
+	position:absolute;
+	left:65.5%;
+	top:59%;
+	
+}
+
+#title{
+	    position:absolute;
+	    font-family:"minion-pro",times,serif;
+		font-size:36pt;
+		font-style:italic;
+		color: #ffffff;
+		left:7.5%;
+		top:18%;
+
+}
+#title:hover{
+	color: #12B0B4;
+	
+}
+#blend{
+	position: absolute;
+	background-color: #12B0B4;
+	width:99%;
+	height:15%;
+	top:95%;
+	margin-right:5px;
+}
+#footer{
+	position: absolute;
+	background-color: #207E89;
+	width:99%;
+	height:10%;
+	top:110%;
+	margin-right:5px;
+}
+
+}
+
+ul{
+	list-style-type: none;
+	position: absolute;
+	margin: -10px;
+	margin-left:-20px;
+}
+li{list-style-type:none;
+}
+
+#nav {
+	display: inline;
+	font-family:"minion-pro",times,serif;
+	color: #ffffff;
+	padding: 5px;
+	margin:10px;
+	background-color: #12B0B4;
+}
+
+#nav:hover{
+	color: #12B0B4;
+	background-color: #EBEBEB;
+
+
+}
+
+	#tfnewsearch{
+		position:absolute;
+		left:45%;
+		top:60%;
+
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+	font-family:"minion-pro",times,serif;
+		font-size:14px;
+		color:#ffffff;
+		border:1px solid #12B0B4; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 6px 15px;
+		font-family:"minion-pro",times,serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #12B0B4;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #EBEBEB;
+		color: #12B0B4;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	input{
+	background-color:#38374A;
+	}
+	
+	#contact{
+	    position:absolute;
+	    font-family:"minion-pro",times,serif;
+		font-size:20pt;
+		color: #ffffff;
+		left:7.5%;
+		top:20%;	
+		
+	}
+	#contact:hover{
+		color:#EBEBEB;
+	}
+	#about{	  
+		 position:absolute;
+	    font-family:"minion-pro",times,serif;
+		font-size:20pt;
+		color: #ffffff;
+		left:18%;
+		top:20%;
+		
+		
+	}
+	#about:hover{
+		color:#EBEBEB;
+	}
+	
+	#me{
+	    position:absolute;
+	    font-family:"minion-pro",times,serif;
+		font-size:20pt;
+		color: #ffffff;
+		left:80%;
+		top:20%;	
+		
+	}
+	#me:hover{
+		color:#EBEBEB;
+	}
+
+/* Home Page CSS */
+
+#videoBox{
+	position: absolute;
+	background-color: #12B0B4;
+	width:50%;
+	height:50%;
+	left:25%;
+	top:16%;
+}
+#video{
+	position: absolute;
+	background-color: #12B0B4;
+	width:100%;
+	height:100%;
+	padding:5px;
+}
+#favBox{
+	position: absolute;
+	background-color: #38374A;
+	width:99%;
+	height:20%;
+	top:75%;
+	margin-right:5px;
+}
+#videoImages{
+	position:relative;
+	width:10%;
+	height:10%;
+	
+}
+
+
+/* Sign Up CSS */
+
+#signUpBox{
+	z-index:1;
+	position: absolute;
+	background-color: #38374A;
+	width:75%;
+	height:85%;
+	left:13%;
+	top:16%;
+
+}
+
+#facebook{
+	position: absolute;
+	width:70%;
+	height:16%;
+	left:.25%;
+	top:-.5%;
+
+}
+#facebook:hover{
+opacity: 0.8; filter: alpha(opacity=30);
+	
+	
+}
+
+#faceInfo{
+	position: absolute;
+	border:1px solid #12B0B4;
+	width:90%;
+	height:8%;
+	left:5%;
+	top:15%;
+
+}
+#faceText{
+	position: absolute;
+	font-size:26pt;
+	top: -14%;
+	left: 14%;
+	opacity:.6;
+	color:#EBEBEB;
+	font-family:"minion-pro",times,serif;
+	
+	
+}
+#fbLogo{
+	position: absolute;
+	background-color: #ffffff;
+	width:10%;
+	height:80%;
+	left:2%;
+	top:10%;
+
+}
+#facebookText{
+	position:relative;
+	font-size:26pt;
+	font-family:"minion-pro",times,serif;
+	left:17%;
+	top:-40%;
+	color: #ffffff;
+}
+#fbF{
+position:relative;
+font-size:36pt;
+font-family: Futura, Tahoma, sans-serif;
+left:50%;
+top:-85%;
+color: #3b5998;
+
+}
+#details{
+	position:absolute;
+	top:25%;
+	left:30%;
+	font-family:"minion-pro",times,serif;
+	font-size:36pt;
+	color:#ffffff;
+
+}
+.signTextInput{
+	position:relative;
+	padding:10px 10px;
+	margin:5%;
+	width:100%;
+font-family:"minion-pro",times,serif;
+	font-size:36px;
+	color:#ffffff;
+	border:1px solid #12B0B4;
+	text-align:center;
+
+}
+#signUpButton{
+	position:absolute;
+	top:67%;
+	left:5%;
+	width:91%;
+	height:12%;
+	background-color:#EBEBEB;
+	color: #12B0B4;
+
+
+}
+#signText{
+	position:absolute;
+	font-size:48pt;
+	font-family: Futura, Tahoma, sans-serif;
+	left:38%;
+	top:-35%;
+	
+	
+}
+#signUpButton:hover{
+
+	background-color:#12B0B4;
+	color: #EBEBEB;
+
+}
+#basicInfo{
+	position: absolute;
+	border:1px solid #12B0B4;
+	width:91%;
+	height:8%;
+	left:5%;
+	top:83%;	
+	
+}
+#basicText{
+	position: absolute;
+	font-size:25pt;
+	top: -14%;
+	left: 11%;
+	opacity:.6;
+	color:#EBEBEB;
+	font-family:"minion-pro",times,serif;
+	
+	
+}
+/* Log In CSS */
+#LogInButton{
+	position:absolute;
+	top:55%;
+	left:5%;
+	width:91%;
+	height:12%;
+	background-color:#EBEBEB;
+	color: #12B0B4;
+
+
+}
+#LogInButton:hover{
+
+	background-color:#12B0B4;
+	color: #EBEBEB;
+
+}
+#LogText{
+	position:absolute;
+	font-size:48pt;
+	font-family: Futura, Tahoma, sans-serif;
+	left:38%;
+	top:-35%;
+	
+	
+}
+#basicTextLog{
+	position: absolute;
+	font-size:25pt;
+	top: -14%;
+	left: 20%;
+	opacity:.6;
+	color:#EBEBEB;
+	font-family:"minion-pro",times,serif;	
+	
+	
+}
+
+
+/* Browse CSS */
+#mostPopVid{
+		position: absolute;
+		background-color: #12B0B4;
+		width:25%;
+		height:20%;
+		left:5%;
+		top:15%;
+	
+}
+#mostPop{
+	z-index:1;
+	position: absolute;
+	background-color: #38374A;
+	width:75%;
+	height:90%;
+	left:13%;
+	top:16%;
+
+}
+.scroll{
+	position:absolute;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+	left:-3%;
+	top:0%;
+}
+.mostPopVid{
+    height: 50%;
+    width: 100%;
+	background-color: #38374A;
+}
+.popVids{
+	margin:5%;
+	padding:3%;
+	background-color:#38374A;
+	width:50%;
+	height:75%;
+	border:1px solid #12B0B4;
+	
+}
+.popInfoBox{
+	margin-left:115%;
+	background-color:#38374A;
+	width:62%;
+	height:100%;
+	border:1px solid #12B0B4;
+	
+}
+.mostPopTitle{
+	position:absolute;
+	background-color:#EBEBEB;
+	color:#777777;
+	width:100%;
+	height:10%;
+	z-index:2;
+    opacity : .4;
+	font-size:26pt;
+	font-family:"minion-pro",times,serif;
+	text-align:center;
+	
+}
+.popVideos{
+	width:110%;
+	height:120%;
+	margin-left: -5%;
+	margin-top: -100%;
+	
+}
+.popInfo{
+	font-size:26pt;
+	font-family:"minion-pro",times,serif;
+	color:#777777;	
+}
+.popInfo:hover{
+	color:#12B0B4;
+}
+
+/* About/Contact CSS */
+#aboutTitle{
+    position:absolute;
+    font-family:"minion-pro",times,serif;
+	font-size:36pt;
+	color: #12B0B4;
+	left:30%;
+	top:-1%;
+	
+	
+}
+#aboutTextContainer{
+	position:absolute;
+	background-color: #38374A;
+	width:80%;
+	height:80%;
+		top:10%;
+		left:10%;
+	z-index:10;
+	border:1px solid #12B0B4;
+}
+.aboutTextTitle{
+    font-family:"minion-pro",times,serif;
+	font-size:20pt;
+	color: #12B0B4;	
+
+}
+.aboutText{
+    font-family:"minion-pro",times,serif;
+	font-size:14pt;
+	color: #EBEBEB;	
+	
+}
+#info{
+    font-family:"minion-pro",times,serif;
+	font-size:14pt;
+	color: #EBEBEB;	
+	text-align:center;
+	
+}
+#infoP{
+	position:absolute;
+	background-color: #38374A;
+	width:70%;
+	height:60%;	
+	text-align:center;
+	left:14%;
+	top:5%;	
+	
+}
+/* profile css*/
+
+#profile_info{
+	position:absolute;
+	left:2.5%;
+	top:16%;
+	width:20%;
+	height:55%;
+	background-color: #38374A;
+	
+	
+	
+}
+#twitch_chat{
+	position:absolute;
+	left:78%;
+	right:2.5%;
+	top:16%;
+	width:20%;
+	height:51%;
+	background-color: #38374A;
+}
+#twitch_chat_inside{
+	position:absolute;
+	left:2%;
+	top:1%;	
+	width:96%;
+	height:98%;
+	background-color: #38374A;
+}
+#pastBroadcasts{
+	position:absolute;
+	background-color:#EBEBEB;
+	color:#38374A;
+	width:100%;
+	height:10%;
+	z-index:2;
+    opacity : .4;
+	font-size:26pt;
+	font-family:"minion-pro",times,serif;
+	text-align:center;
+}
+#horiz_container_outer_profile{
+	position:relative;
+	width:95%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	position:relative;
+	height:80%;
+	margin:5px auto;
+	border:1px solid #cccccc;
+}

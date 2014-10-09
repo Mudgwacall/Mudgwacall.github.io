@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.slimscroll.js"></script>
+		<title>World Perspectives</title>
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+		      $( '#mostPop' ).mouseenter(function() {
+				  $( '.mostPopTitle' ).fadeOut( 'slow');
+				    })
+				});
+		</script>
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+		      $( '#mostPop' ).mouseleave(function() {
+				  $( '.mostPopTitle' ).fadeIn( 'slow');
+				    })
+				});
+		</script>
+ 		
+		<script type="text/javascript">
+		
+		$(function() {
+		    $("#panel").sortable({
+		        items: ".content",
+		        forcePlaceholderSize: true
+		    }).disableSelection();
+		    $(".content").disableSelection();
+
+		});​
+		
+ 		</script>
+		
+
+	</head>
+	<body>
+		
+		
+		<div id="header">
+			
+			
+			<div id="navbar">
+				<ul>
+					<a href ="about.html"><li id="nav">About</li></a>
+					<a href ="browse.html"><li id="nav">Browse</li></a>
+					<a href ="Log In.html"><li id="nav">Log In</li></a>
+					<a href ="Sign Up.html"><li id="nav">Sign Up </li></a>
+				</ul>
+			</div>
+			<a href ="home.html"><h1 id="title">World Perspectives</h1></a>
+			<img id ="logo" src="images/logo.png" width="50" height="50">
+					<form id="tfnewsearch" method="get" action="browse.html">
+					        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="Search" class="tfbutton">
+					</form>
+				<div class="tfclear"></div>
+				<a href ="profile.html"><img id ="profile_pic" src='images/profile.png' width='30' height='30' onmouseover="this.src='images/profile_hover.png';" onmouseout="this.src='images/profile.png';" /></a></div>
+		</div>
+		<div id = "mostPop">
+  <div id="testDiv">
+	<li class="mostPopVid"> <div class = "mostPopTitle"><p>MOST POPULAR</p></div><div class ="popVids"><div class ="popInfoBox"><ul class= "popInfo">
+						<li><p>User: <i>croissants</i></p></li> <li><p>Description: <i>Lovely view from my part of the world, Paris!</i></p></li><li><p>Place: <i>Paris</i></p></li></div><video class = "popVideos" controls>
+  <source src="videos/Paris.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></div></li>
+	    <li class="mostPopVid"><div class ="popVids"> <div class ="popInfoBox"><ul class= "popInfo">
+						<li><p>User: <i>ShrimpOnTheBarby</i></p></li> <li><p>Description: <i>Gdday Mate. </i></p></li><li><p>Place: <i>Australia</i></p></li></div><video class = "popVideos" controls>
+  <source src="videos/Aussie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></div></li>
+	    <li class="mostPopVid"><div class ="popVids"><div class ="popInfoBox"> <ul class= "popInfo">
+						<li><p>User: <i>ThisIsSparta</i></p></li> <li><p>Description: <i>Just a snippet of my home town. Lovely place to grow up and retire in!</i></p></li><li><p>Place: <i>Rome</i></p></li></div> <video class = "popVideos" controls>
+  <source src="videos/Rome.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></div></li>
+	    <li class="mostPopVid"><div class ="popVids"><div class ="popInfoBox"><ul class= "popInfo">
+						<li><p>User: <i>CallumMudgway</i></p></li> <li><p>Description: <i>A cool vid check it out!</i></p></li><li><p>Place: <i>Wellington</i></p></li></div><video class = "popVideos" controls>
+  <source src="videos/Wellington.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></div></li>
+	    <li class="mostPopVid"><div class ="popVids"><div class ="popInfoBox"><ul class= "popInfo">
+						<li><p>User: <i>WizardOfOz</i></p></li> <li><p>Description: <i>I just wanna go home.</i></p></li><li><p>Place: <i>Kansas</i></p></li></div><video class = "popVideos" controls>
+  <source src="videos/Kansas.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></div></li>    
+	</ul>​
+  </div>
+		<script type="text/javascript">
+		    $(function(){
+		      $('#testDiv').slimScroll();
+		    });
+		</script>
+		
+
+</div>
+	
+		<div id ="blend">
+		</div>
+		<div id = "footer">
+			<a href ="about.html"><p id = "contact">Contact</p></a>
+			<a href ="about.html"><p id = "about">About</p></a>
+		<a href ="https://www.facebook.com/callum.mudgway"><p id ="me">Callum Mudgway</p>	</a>
+		</div>
+	</body>
+</html>

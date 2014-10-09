@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>World Perspectives</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<link rel="stylesheet" type="text/css" href="jquery.horizontal.scroll.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script src="jquery.horizontal.scroll.js" type="text/javascript"></script>
+		<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+
+		<script>
+		  Twitch.init({clientId: 'msi1vnivx7g3ixfr8dzw66cqb4ymk5k'}, function(error, status) {
+		    // the sdk is now loaded
+		  });
+		</script>
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+				$('#horiz_container_outer_proflie').horizontalScroll();
+			});
+
+		</script>
+		<script>
+		$(document).ready(function() {
+	      $( '#horiz_container_outer_profile' ).mouseenter(function() {
+			  $( '#pastBroadcasts' ).fadeOut( 'slow');
+			    })
+			});
+	</script>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+	      $( '#horiz_container_outer_profile' ).mouseleave(function() {
+			  $( '#pastBroadcasts' ).fadeIn( 'slow');
+			    })
+			});
+	</script>
+	</head>
+	<body>
+
+
+		<div id="header">
+			<a href ="home.html"><h1 id="title">World Perspectives</h1></a>
+
+			<div id="navbar">
+				<ul>
+					<a href ="about.html"><li id="nav">About</li></a>
+					<a href ="browse.html"><li id="nav">Browse</li></a>
+					<a href ="Log In.html"><li id="nav">Log In</li></a>
+					<a href ="Sign Up.html"><li id="nav">Sign Up</li></a>
+				</ul>
+			</div>
+			
+			<img id ="logo" src="images/logo.png" width="50" height="50">
+					<form id="tfnewsearch" method="get" action="browse.html">
+					        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="Search" class="tfbutton">
+					</form>
+				<div class="tfclear"></div>
+				<a href ="profile.html"><img id ="profile_pic" src='images/profile.png' width='30' height='30' onmouseover="this.src='images/profile_hover.png';" onmouseout="this.src='images/profile.png';" /></a></div>
+		</div>
+
+<div id ="profile_info"></div>
+<div id ="twitch_chat"><iframe frameborder="0" 
+        scrolling="no" 
+        id="twitch_chat_inside" 
+        src="http://twitch.tv/chat/embed?channel=imdonning&amp;popout_chat=true" 
+        >
+</iframe></div>
+		<div id ="videoBox" class="content">
+			<object id = "video" type="application/x-shockwave-flash" height="480" width="720" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=imdonning" bgcolor="#38374A" color:"#38374A"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="hostname=www.twitch.tv&channel=imdonning&auto_play=true&start_volume=25" /></object><a href="http://www.twitch.tv/imdonning" style="padding:2px 0px 4px; display:block; width:720px; height:480; font-weight:normal; font-size:10px;text-decoration:underline; text-align:right;"></a>
+		</div>
+
+		<div id ="favBox">
+			<ul id="horiz_container_outer_profile"><div id = "pastBroadcasts"><p>MOST POPULAR</p></div>
+				<li id="horiz_container_inner">
+					<ul id="horiz_container">
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+						<li><img src="images/video.png" width="400px" height="200px" alt="video" /></li>
+					</ul>
+				</li>
+			</ul>
+
+
+			<div id="scrollbar">
+				<a id="left_scroll" class="mouseover_left" href="#"></a>
+				<div id="track">
+						<div id="dragBar"></div>
+				</div>
+				<a id="right_scroll" class="mouseover_right" href="#"></a></div>
+			</div>
+		</div>
+		<div id ="blend">
+		</div>
+		<div id = "footer">
+			<a href ="about.html"><p id = "contact">Contact</p></a>
+			<a href ="about.html"><p id = "about">About</p></a>
+		<a href ="https://www.facebook.com/callum.mudgway"><p id ="me">Callum Mudgway</p>	</a>
+		</div>
+
+
+	</body>
+</html>

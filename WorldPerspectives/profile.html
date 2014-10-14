@@ -14,6 +14,7 @@
 			var getInfo = function(callback){
 				Twitch.api({method: 'channel'}, function(error, channel) {
 					callback(channel);
+					console.log("test log");
 				});
 			}
 			

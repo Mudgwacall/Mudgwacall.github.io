@@ -1,6 +1,6 @@
 $(function(){
 	
-	Twitch.init({clientId: 'pugdziizvbmk12pd1qkp8svt3ptb7zp'}, function(error, status) {
+	Twitch.init({clientId: 'hj0u0ban55ryh4hs4gv6q18u70gohm6'}, function(error, status) {
 		 console.log(status);
 		 if(status.authenticated){
 			 $('.twitch-disconnect').hide();

@@ -13,7 +13,8 @@
 			  if(status.authenticated){
  				  $('.twitch-disconnect').hide();
 				  getInfo(function(data){
-				  	
+					  $('strong').text(data.display_name);
+					  $(#picture).attr('src',"");
 					
 				  });
 
@@ -22,12 +23,6 @@
  				  $('#login-info').hide();
  			  }
  		  });
-		  var checkStatus = function(){
-			  Twitch.getStatus(function(err,status){
-				  console.log(status);
-			  });
-			
-		  }
  		  var login =function(){
  		   			    Twitch.login({
  		   			      scope: ['user_read', 'channel_read']

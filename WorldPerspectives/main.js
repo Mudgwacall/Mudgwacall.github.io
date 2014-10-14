@@ -10,7 +10,7 @@
 			  
 			  console.log(status);
 			  
-			  if(status.authenticated){
+			  if(!status.authenticated){
  				  $('.twitch-disconnect').hide();
 				  getInfo(function(data){
 				  	

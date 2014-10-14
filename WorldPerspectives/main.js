@@ -11,11 +11,11 @@
 			  console.log(status);
 			  
 			  if(status.authenticated){
- 				  $('.twitch-disconnect').hide();
+ 				  $('.twitch-connect').hide();
+				 
 				  getInfo(function(data){
 					  $('strong').text(data.display_name);
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
-					  //$('#visit')
 				  });
 
  			  }
@@ -23,16 +23,21 @@
  				  $('#login-info').hide();
  			  }
  		  });
- 		  var login =function(){
+ 		  var login = function(){
  		   			    Twitch.login({
  		   			      scope: ['user_read', 'channel_read']
  		   			    });
 
  		  }
-		  checkStatus();
 		  
- 		  var logout =function(){
-
+ 		  var logout = function(){
+			  Twitch.logout(function(error) {
+				  $('.twitch-connect').show();
+				  $('strong').text('');
+				  $('#picture').attr('src','');
+				  $('#login-info').hide();
+				  
+			  });
 
  		  }
  		  $('.twitch-connect').click(function(e){

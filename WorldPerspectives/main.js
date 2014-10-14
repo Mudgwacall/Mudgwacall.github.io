@@ -14,8 +14,8 @@
  				  $('.twitch-disconnect').hide();
 				  getInfo(function(data){
 					  $('strong').text(data.display_name);
-					 // $(#picture).attr('src',"");
-					
+					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-300x300.png');
+					  //$('#visit')
 				  });
 
  			  }

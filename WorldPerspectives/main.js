@@ -5,7 +5,6 @@
 					console.log("test log");
 				});
 			}
-			$('videoBox').hide();
 		  Twitch.init({clientId: 'hj0u0ban55ryh4hs4gv6q18u70gohm6'}, function(error, status) {
 			  
 			  console.log(status);
@@ -13,7 +12,6 @@
 			  
 			  if(status.authenticated){
  				  $('.twitch-connect').hide();
-				  $('videoBox').show();
 				  getInfo(function(data){
 					  $('strong').text(data.display_name);
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');

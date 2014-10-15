@@ -1,4 +1,8 @@
 		$(function(){
+			
+		  $('#video').hide();
+		  $('twitch_chat_inside').hide();
+		  
 			var getInfo = function(callback){
 				Twitch.api({method: 'channel'}, function(error, channel) {
 					callback(channel);

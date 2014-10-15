@@ -19,7 +19,7 @@
 				  
 				  getInfo(function(data){
 					  $('strong').text(data.display_name);
-					  $('strong').text('views = ', data.views);
+					  $('strong').text(data.views);
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
 				  });
 				  $('#video').show();

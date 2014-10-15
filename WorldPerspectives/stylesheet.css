@@ -581,7 +581,7 @@ top:5%;
 #picture{
 	position:absolute;
 	left:26%;
-	top:25%;	
+	top:27%;	
 	
 }
 .btn{
@@ -627,7 +627,7 @@ strong{
 #views{
 	position:absolute;
 	top:59%;
-	left:54%;
+	left:57%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
@@ -637,7 +637,7 @@ strong{
 #followers{
 	position:absolute;
 	top:69%;
-	left:65%;
+	left:69%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
@@ -647,7 +647,7 @@ strong{
 #views_text{
 	position:absolute;
 	top:59%;
-	left:24%;
+	left:27%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
@@ -657,7 +657,7 @@ strong{
 #followers_text{
 	position:absolute;
 	top:69%;
-	left:24%;
+	left:27%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;

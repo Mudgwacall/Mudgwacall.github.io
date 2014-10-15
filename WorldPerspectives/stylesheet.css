@@ -592,8 +592,8 @@ top:5%;
 }
 .btn{
 	position:absolute;
-	left:50%;
-	top:80%;		
+	left:29%;
+	top:13%;		
 	font-size:32pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
@@ -609,6 +609,8 @@ top:5%;
 	background-color:#12B0B4;
 }
 #btn_div:hover{
-	background-color:#EBEBEB;
+		background-color:#EBEBEB;
+}
+.btn:hover{
 	color:#12B0B4;
 }

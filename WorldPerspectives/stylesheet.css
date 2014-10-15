@@ -627,11 +627,25 @@ strong{
 #views{
 	position:absolute;
 	top:40%;
-	left:20%;
+	left:30%;
 	
 	
 }
 #followers{
+	position:absolute;
+	top:50%;
+	left:30%;
+	
+	
+}
+#views_text{
+	position:absolute;
+	top:40%;
+	left:20%;
+	
+	
+}
+#followers_text{
 	position:absolute;
 	top:50%;
 	left:20%;

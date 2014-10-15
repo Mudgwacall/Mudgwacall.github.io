@@ -20,7 +20,9 @@
 				  getInfo(function(data){
 					  $('strong').text(data.display_name);
 					  $('#views').text(data.views);
-					  $('#followers').text('Followers:', data.followers);
+					  $('#followers').text(data.followers);
+					  $('#views_text').text('views:');
+					  $('#followers_text').text('Followers:');
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
 				  });
 				  $('#video').show();

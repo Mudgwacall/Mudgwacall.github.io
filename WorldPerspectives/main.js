@@ -12,6 +12,7 @@
 			  
 			  if(status.authenticated){
  				  $('.twitch-connect').hide();
+				  $('#video').show();
 				  getInfo(function(data){
 					  $('strong').text(data.display_name);
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
@@ -27,7 +28,7 @@
  		   			    Twitch.login({
  		   			      scope: ['user_read', 'channel_read']
  		   			    });
-						$('#video').show();
+						
 
  		  }
 		  

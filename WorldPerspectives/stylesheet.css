@@ -624,9 +624,16 @@ strong{
 	height:15%;		
 	background-color:#12B0B4;
 }
-#visit{
+#views{
 	position:absolute;
-	top:10%;
+	top:40%;
+	left:20%;
+	
+	
+}
+#followers{
+	position:absolute;
+	top:50%;
 	left:20%;
 	
 	

@@ -18,6 +18,7 @@
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
 				  });
 				  $('#video').show();
+				  $('twitch_chat').show();
 
  			  }
  			  else{
@@ -40,6 +41,7 @@
 				  $('#picture').attr('src','');
 				  $('#login-info').hide();
 				  $('#video').hide();
+				  $('twitch_chat').hide();
 				  
 			  });
 

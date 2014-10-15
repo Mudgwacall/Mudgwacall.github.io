@@ -24,10 +24,11 @@
  			  }
  		  });
  		  var login = function(){
+			  $('#video').show();
  		   			    Twitch.login({
  		   			      scope: ['user_read', 'channel_read']
  		   			    });
-						$('#video').show();
+						
 
  		  }
 		  

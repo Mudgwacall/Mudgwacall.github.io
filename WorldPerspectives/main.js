@@ -1,7 +1,7 @@
 		$(function(){
 			
 		  $('#video').hide();
-		  $('twitch_chat_inside').hide();
+		  $('#twitch_chat_inside').hide();
 		  
 			var getInfo = function(callback){
 				Twitch.api({method: 'channel'}, function(error, channel) {
@@ -22,7 +22,7 @@
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
 				  });
 				  $('#video').show();
-				  $('twitch_chat_inside').show();
+				  $('#twitch_chat_inside').show();
 
  			  }
  			  else{
@@ -45,7 +45,7 @@
 				  $('#picture').attr('src','');
 				  $('#login-info').hide();
 				  $('#video').hide();
-				  $('twitch_chat_inside').hide();
+				  $('#twitch_chat_inside').hide();
 				  
 			  });
 

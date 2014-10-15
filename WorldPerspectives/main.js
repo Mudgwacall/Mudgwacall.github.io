@@ -37,6 +37,7 @@
 				  $('strong').text('');
 				  $('#picture').attr('src','');
 				  $('#login-info').hide();
+				  $('#videoBox').hide();
 				  
 			  });
 

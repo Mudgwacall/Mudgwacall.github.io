@@ -608,3 +608,6 @@ top:5%;
 	height:15%;		
 	background-color:#12B0B4;
 }
+.btn:hover{
+	color:#38374A;
+}

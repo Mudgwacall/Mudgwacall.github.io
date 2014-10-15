@@ -597,6 +597,7 @@ top:5%;
 	font-size:32pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
+	color:#EBEBEB;
 	
 	
 }
@@ -606,11 +607,4 @@ top:5%;
 	width:100%;
 	height:15%;		
 	background-color:#12B0B4;
-	color:#EBEBEB;
-}
-#btn_div:hover{
-		background-color:#EBEBEB;
-}
-.btn:hover{
-	color:#12B0B4;
 }

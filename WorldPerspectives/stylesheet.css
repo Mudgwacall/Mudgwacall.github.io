@@ -581,7 +581,7 @@ top:5%;
 #picture{
 	position:absolute;
 	left:26%;
-	top:18%;	
+	top:25%;	
 	
 }
 .btn{
@@ -626,8 +626,8 @@ strong{
 }
 #views{
 	position:absolute;
-	top:40%;
-	left:30%;
+	top:59%;
+	left:54%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
@@ -636,8 +636,8 @@ strong{
 }
 #followers{
 	position:absolute;
-	top:50%;
-	left:30%;
+	top:69%;
+	left:65%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
@@ -646,8 +646,8 @@ strong{
 }
 #views_text{
 	position:absolute;
-	top:40%;
-	left:20%;
+	top:59%;
+	left:24%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;
@@ -656,8 +656,8 @@ strong{
 }
 #followers_text{
 	position:absolute;
-	top:50%;
-	left:20%;
+	top:69%;
+	left:24%;
 	font-size:18pt;
 	font-family: Futura, Tahoma, sans-serif;
 	text-decoration:none;

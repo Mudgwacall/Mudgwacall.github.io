@@ -576,9 +576,24 @@ font-family:"minion-pro",times,serif;
 .twitch-connect{
 position:absolute;
 left:23%;
-top:5%;	
+top:5%;		
+}
+#twitch_name{
+	position:absolute;
+	left:23%;
+	top:5%;	
 	
+}
+#picture{
+	position:absolute;
+	left:50%;
+	top:20%;	
 	
+}
+.btn{
+	position:absolute;
+	left:50%;
+	top:20%;		
 	
 	
 	

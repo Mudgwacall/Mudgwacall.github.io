@@ -18,8 +18,8 @@
  				  $('.twitch-connect').hide();
 				  
 				  getInfo(function(data){
-					  $('h1').text(data.display_name);
-					  $('twitch_views').text(data.views);
+					  $('strong').text(data.display_name);
+					  $('#visit').text(data.views);
 					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
 				  });
 				  $('#video').show();

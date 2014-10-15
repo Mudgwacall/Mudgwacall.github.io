@@ -605,7 +605,7 @@ top:5%;
 .btn:hover{
 	color:#38374A;
 }
-#name_twitch{
+strong{
 	position:absolute;
 	left:15%;
 	top:15%;		

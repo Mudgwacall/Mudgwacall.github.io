@@ -24,7 +24,7 @@
 					  $('#views').text(data.views);
 					  $('#followers').text(data.followers);
 					  
-					  $('#picture').attr('logo');
+					  $('#picture').attr(data.logo);
 				  });
 				  $('#video').show();
 				  $('#twitch_chat_inside').show();

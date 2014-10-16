@@ -24,7 +24,7 @@
 					  $('#views').text(data.views);
 					  $('#followers').text(data.followers);
 					  
-					  $('#picture').attr(data.logo);
+					  $('#picture').attr('src','http://static-cdn.jtvnw.net/jtv_user_pictures/imdonning-profile_image-dc549200c02cbf4a-150x150.png');
 				  });
 				  $('#video').show();
 				  $('#twitch_chat_inside').show();
